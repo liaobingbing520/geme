@@ -1,0 +1,194 @@
+
+body{
+  background: url("../images/bg.png") no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+nav{
+  margin-top: 0.1rem;
+  padding: 0 0.1rem;
+  .service{
+    width: 2.5rem;
+    height: 0.6rem;
+    background: url("../images/lt_logo.png") no-repeat;
+    background-size: contain;
+    float: left;
+  }
+  .regulation{
+    width: 1.75rem;
+    height: 0.6rem;
+    background: url("../images/btn_rules.png") no-repeat;
+    background-size: contain;
+    float: right;
+  }
+}
+
+/*开始页*/
+.start-page{
+  margin-top: 0.8rem;
+  text-align: center;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .btn{
+    width: 3.24rem;
+    height: 0.88rem;
+    background: url("../images/btn_mszzt.png") no-repeat;
+    background-size: contain;
+  }
+}
+/*规则*/
+.regulation-page{
+  width: 82%;
+  //height: 85%;
+  display: none;
+  padding: 0.2rem;
+  position: absolute;
+  background: url("../images/tc_o2.png") no-repeat;
+  background-size:cover;
+  top: 1rem;
+  left: 6%;
+  z-index: 9999;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  button{
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url("../images/close.png") no-repeat;
+    background-size: contain;
+    top: 0.2rem;
+    right: 0.2rem;
+  }
+}
+/*游戏提示*/
+.hiti{
+  display: none;
+  width: 5rem;
+  height: 4rem;
+  position: absolute;
+  top:-50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  background: url("../images/tc_o.png") no-repeat;
+  text-align: center;
+  padding-top: 20px;
+  z-index: 999;
+  .tcop{
+    font-size: 0.3rem;
+  }
+  button{
+    width: 3.24rem;
+    height: 0.88rem;
+    background: url("../images/btn_ikonw.png") no-repeat;
+    background-size: contain;
+    margin-top: 0.8rem;
+  }
+}
+/*游戏页*/
+.game-page{
+  width: 4.6rem;
+  position: absolute;
+  top:0;
+  left: 13.8%;
+  overflow: hidden;
+  .people{
+    position: absolute;
+    width:60px;
+    height: 80px;
+    .people-img1,.people-img2{
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+    .i1{
+      position: absolute;
+      display: none;
+      top:-20px;
+      left: 0;
+      color: green;
+    }
+  }
+  .clock{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    .clock1,.clock2{
+      display: none;
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+  .gw,.ice_c,.card{
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+}
+/*游戏胜利*/
+.cuccess-page{
+
+}
+.jh-list,.bf-list,.cueess-list{
+  width: 82%;
+  //height: 85%;
+  display: none;
+  padding: 0.2rem;
+  position: absolute;
+  background: url("../images/tc_o2.png") no-repeat;
+  background-size:cover;
+  top: 1rem;
+  left: 6%;
+  text-align: center;
+.cuccess-text{
+  font-size: 0.3rem;
+  p{
+    margin-top: 10px;
+  }
+}
+  .cucc-img{
+    width: 100%;
+    height: 5.5rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .btns1,.btns{
+    .btns2,.btn4,.btn3,.btn1,.btn2{
+      width: 2rem;
+      height: 0.60rem;
+      margin-top: 0.4rem;
+    }
+    .btns2{
+      background: url("../images/ret.png") no-repeat;
+      background-size: contain;
+    }
+    .btn1{
+      float: left;
+      background: url("../images/btn_zsyc.png") no-repeat;
+      background-size: contain;
+    }
+    .btn2{
+      float:right;
+      background: url("../images/btn_xyyx.png") no-repeat;
+      background-size: contain;
+    }
+    .btn3{
+      float: left;
+      background: url("../images/btn_bfcl.png") no-repeat;
+      background-size: contain;
+    }
+    .btn4{
+      float: right;
+      background: url("../images/btn_hjzy.png") no-repeat;
+      background-size: contain;
+    }
+  }
+}

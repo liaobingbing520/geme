@@ -1,0 +1,56 @@
+﻿/*css 初始化 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {margin: 0;padding: 0;}
+fieldset,img,input,button {border: none;padding: 0;margin: 0;
+    /*在低版本的ie浏览器里面不支持*/
+    outline-style: none;
+}
+ul,ol {list-style: none;}
+input {padding-top: 0;padding-bottom: 0;font-family: " poppin,'PingFang SC',Tahoma,Arial,微软雅黑,sans-serif;";}
+select,input {vertical-align: middle;}
+select,input,textarea {font-size: 14px;margin: 0;}
+/*禁止手动修改大小*/
+textarea {resize: none;}
+/*去掉图片底部默认空白缝隙*/
+img {border: 0;vertical-align: middle;}
+/*合并外连线*/
+table {
+    /*表格的单元格边框默认是不会重合的，这个属性可以让表格的边框重合在一起，看起来更加细一些*/
+    border-collapse: collapse;
+}
+body {font: 14px/150% Microsoft YaHei ;color: #000;  background: #fff;}
+/*清除浮动*/
+.clearfix:before,.clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+a {color: #000;text-decoration: none;}
+a:hover {color: #31c27c;text-decoration: none;}
+h1,h2,h3,h4,h5,h6 {text-decoration: none; font-weight: normal;font-size: 100%;}
+
+s,i,em {font-style: normal;text-decoration: none;}
+
+/*引入屏幕适配文件*/
+/*@media screen and (device-width: 320px) {*/
+    /*html {*/
+        /*font-size: 16px;*/
+    /*}*/
+/*}*/
+/*@media screen and (device-width: 360px) {*/
+    /*html {*/
+        /*font-size: 18px;*/
+    /*}*/
+/*}*/
+/*@media screen and (device-width: 375px) {*/
+    /*html {*/
+        /*font-size: 18.75px;*/
+    /*}*/
+/*}*/
+/*@media screen and (device-width: 412px) {*/
+    /*html {*/
+        /*font-size: 20.06px;*/
+    /*}*/
+/*}*/
+/*@media screen and (device-width: 414px) {*/
+    /*html {*/
+        /*font-size: 20.07px;*/
+    /*}*/
+/*}*/

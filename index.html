@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 禁止了把数字转化为拨号链接 -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 在web app应用下状态条（屏幕顶部条）的颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>时钟追赶游戏</title>
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="clearfix">
+    <p class="service"></p><p class="regulation"></p>
+</nav>
+<!--开始页-->
+<div class="start-page">
+    <img src="images/thenm.png" alt="">
+    <button class="btn"></button>
+</div>
+<!--规则-->
+<div class="regulation-page">
+    <button class="btn-rule"></button>
+    <img src="images/rules_cot.png" alt="">
+</div>
+<!--游戏提示-->
+<div class="hiti">
+    <p class="tcop">游戏中，通过左右滑动屏幕控<br>制方向，不断点击向前按钮来<br>加速。追上时钟的用时越短，<br>排名越前。按照排名获取奖品</p>
+    <button class="btn-start"></button>
+</div>
+<!--游戏页-->
+<div class="game-page">
+    <div class="clock">
+        <img class="clock1" src="images/clock1.png" alt="">
+        <img class="clock2" src="images/clock2.png" alt="">
+    </div>
+    <img class="gw" src="images/4gw.png" alt="">
+    <img class="ice_c" src="images/ice_c.png" alt="">
+    <img class="card" src="images/card.png" alt="">
+   <div class="people">
+       <i class="i1">速度+10</i>
+       <img class="people-img1" src="images/people1.png" alt="">
+       <img class="people-img2" src="images/people2.png" alt="">
+   </div>
+</div>
+<!--成功追到-->
+<div class="cuccess-page">
+   <div class="cueess-list">
+       <div class="cuccess-text">
+           <p>本次用时  <span class="sp1">1</span> 秒</p>
+           <p>当前最好成绩<span class="sp2">***</span>秒 <br> 排第<span class="sp3">***</span>名</p>
+       </div>
+       <div class="cucc-img">
+           <img src="images/thenm2.png" alt="">
+       </div>
+       <div class="btns clearfix">
+           <button class="btn1"></button> <button class="btn2"></button>
+       </div>
+   </div>
+</div>
+<!--不服重来-->
+<div class="bf-page">
+    <div class="bf-list">
+        <div class="cuccess-text">
+            <p>可恶~~~<br>没想到这小子跑得这么快！<br>居然让他溜了~<br>我觉得不行，<br>不重来有失水平</p>
+        </div>
+        <div class="cucc-img">
+            <img src="images/thenm3.png" alt="">
+        </div>
+        <div class="btns clearfix">
+            <button class="btn3"></button> <button class="btn4"></button>
+        </div>
+    </div>
+</div>
+<!--没有机会了-->
+<div class="jh-page">
+    <div class="jh-list">
+        <div class="cuccess-text">
+            <p>你今天追他的次数<br>已经用完了，得找个人<br>帮忙才行哦~~~</p>
+        </div>
+        <div class="cucc-img">
+            <img src="images/thenm4.png" alt="">
+        </div>
+        <div class="btns1 clearfix">
+            <button class="btns2"></button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
